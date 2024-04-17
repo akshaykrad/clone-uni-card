@@ -1,0 +1,77 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.uni_logo {
+    width: 120px;
+    height: 90px;
+}
+
+.paycheck {
+    width: 150px;
+    height: 41px;
+    font-weight: 500;
+    border-radius: 12px;
+    font-size: 16px;
+    border:none;
+    color:#FFFFFF;
+    background-color: #00000099;
+    font-family: var(--chakra-fonts-body);
+}
+
+.content {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+}
+
+.card_image img{
+    height: 420px;
+    width: 420px;
+}
+
+.text_section {
+    margin-left:2rem;
+}
+
+.text_section h1 {
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 3.4rem;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+    text-align: start;
+}
+
+.text_section p {
+    text-align: start;
+}
